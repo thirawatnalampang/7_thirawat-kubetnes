@@ -1,0 +1,8 @@
+kubectl apply -f .\sample-pod.yml 
+kubectl get all  //เช็ค
+kubectl delete pods client-pod //ลบ
+kubectl logs client-pod
+kubectl delete all --all //ลบทั้งหมด
+kubectl apply -f.\client-deployment.yml
+kubectl delete deployments client-deployment // ลบทั้งคลัสเตอร์
+kubectl apply -f . สร้างทั้งหมด
